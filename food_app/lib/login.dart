@@ -13,7 +13,7 @@ class _MyLoginState extends State<MyLogin> {
     return Container(
       decoration: BoxDecoration(
           image: DecorationImage(
-              image: AssetImage('assets/images/login.png'), fit: BoxFit.cover)),
+              image: AssetImage('assets/images/auth.jpg'), fit: BoxFit.cover)),
       child: Scaffold(
           backgroundColor: Colors.transparent,
           body: Stack(
@@ -22,8 +22,11 @@ class _MyLoginState extends State<MyLogin> {
                 child: Padding(
                   padding: const EdgeInsets.only(left: 35, top: 130),
                   child: Text(
-                    'Donet\nFood',
-                    style: TextStyle(color: Colors.white, fontSize: 33),
+                    'Donate\nFood',
+                    style: TextStyle(
+                        color: Color.fromARGB(255, 100, 234, 70),
+                        fontSize: 37,
+                        fontWeight: FontWeight.bold),
                   ),
                 ),
               ),
